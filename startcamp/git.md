@@ -81,6 +81,8 @@ $ git status		# WD, SA의 상태 확인
 - [gitignore.io](https://gitignore.io/) 를 이용하면 편하게 gitignore 파일을 작성할 수 있음
   - 단, 개인적으로 생성한 파일은 직접 등록해야 함
 
+
+
 ### 4. Commit을 위한 준비
 
 ```bash
