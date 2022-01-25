@@ -15,7 +15,9 @@
 3. [함수](python/0119_02_01_function.md)
 4. [모듈](python/0119_02_02_module.md)
 5. [Git](python/0121_git.md)
-6. [데이터 수집](python/0117_01_control_statement.md)
+6. [데이터 수집](python/0121_json.md)
+6. [데이터 구조](0124_03_01_data_structure.md)
+6. [에러/예외 처리](0124_03_03_Error_Exception_Handling.md)
 
 
 
@@ -138,6 +140,25 @@
     - [쇠막대기](algorithm/backjoon/10799.md)
     - [오큰수](algorithm/backjoon/17298.md)
     - [오등큰수](algorithm/backjoon/17299.md)
+15. 자료구조 1 (참고)
+    - [후위 표기식2](algorithm/backjoon/1935.md)
+    - [알파벳 개수](algorithm/backjoon/10808.md)
+    - [알파벳 찾기](algorithm/backjoon/10809.md)
+    - [문자열 분석](algorithm/backjoon/10820.md)
+    - [단어 길이 재기](algorithm/backjoon/2743.md)
+    - [ROT13](algorithm/backjoon/11655.md)
+    - [네 수](algorithm/backjoon/10824.md)
+    - [접미사 배열](algorithm/backjoon/11656.md)
+16. 수학 1
+    - [나머지](algorithm/backjoon/10430.md)
+    - [최대공약수와 최소공배수](algorithm/backjoon/2609.md)
+    - [최소공배수](algorithm/backjoon/1934.md)
+    - [소수 찾기](algorithm/backjoon/1978.md)
+    - [소수 구하기](algorithm/backjoon/1929.md)
+    - [골드바흐의 추측](algorithm/backjoon/6588.md)
+    - [팩토리얼](algorithm/backjoon/10872.md)
+    - [팩토리얼 0의 개수](algorithm/backjoon/1676.md)
+    - 조합 0의 개수
 
 
 
