@@ -35,6 +35,8 @@
    - [A×B](algorithm/backjoon/10998.md)
    - [A/B](algorithm/backjoon/1008.md)
    - [사칙연산](algorithm/backjoon/10869.md)
+   - [??!](algorithm/backjoon/10926.md)
+   - [1998년생인 내가 태국에서는 2541년생?!](algorithm/backjoon/18108.md)
    - [나머지](algorithm/backjoon/10430.md)
    - [곱셈](algorithm/backjoon/2588.md)
 2. if문
