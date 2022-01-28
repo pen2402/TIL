@@ -16,8 +16,10 @@
 4. [모듈](python/0119_02_02_module.md)
 5. [Git](python/0121_git.md)
 6. [데이터 수집](python/0121_json.md)
-6. [데이터 구조](0124_03_01_data_structure.md)
-6. [에러/예외 처리](0124_03_03_Error_Exception_Handling.md)
+6. [데이터 구조](python/0124_03_01_data_structure.md)
+6. [에러/예외 처리](python/0124_03_03_Error_Exception_Handling.md)
+6. [OOP](python/0126_04_OOP.md)
+6. [API](python/0128_API.md)
 
 
 
