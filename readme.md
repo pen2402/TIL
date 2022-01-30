@@ -162,7 +162,9 @@
     - [골드바흐의 추측](algorithm/backjoon/6588.md)
     - [팩토리얼](algorithm/backjoon/10872.md)
     - [팩토리얼 0의 개수](algorithm/backjoon/1676.md)
-    - 조합 0의 개수
+    - [조합 0의 개수](algorithm/backjoon/2004.md)
+17. 수학 1 (연습)
+    - [GCD 합](algorithm/backjoon/9613.md)
 
 
 
