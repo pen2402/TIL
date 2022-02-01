@@ -165,6 +165,16 @@
     - [조합 0의 개수](algorithm/backjoon/2004.md)
 17. 수학 1 (연습)
     - [GCD 합](algorithm/backjoon/9613.md)
+    - 숨바꼭질 6
+    - [2진수 8진수](algorithm/backjoon/1373.md)
+    - [8진수 2진수](algorithm/backjoon/1212.md)
+    - -2진수
+    - [골드바흐 파티션](algorithm/backjoon/17103.md)
+18. 수학 1 (참고)
+    - [진법 변환 2](algorithm/backjoon/11005.md)
+    - [진법 변환](algorithm/backjoon/2745.md)
+    - [Base Conversion](algorithm/backjoon/11576.md)
+    - [소인수분해](algorithm/backjoon/11653.md)
 
 
 
