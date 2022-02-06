@@ -165,7 +165,7 @@
     - [조합 0의 개수](algorithm/backjoon/2004.md)
 17. 수학 1 (연습)
     - [GCD 합](algorithm/backjoon/9613.md)
-    - 숨바꼭질 6
+    - [숨바꼭질 6](algorithm/backjoon/17087.md)
     - [2진수 8진수](algorithm/backjoon/1373.md)
     - [8진수 2진수](algorithm/backjoon/1212.md)
     - -2진수
@@ -175,6 +175,21 @@
     - [진법 변환](algorithm/backjoon/2745.md)
     - [Base Conversion](algorithm/backjoon/11576.md)
     - [소인수분해](algorithm/backjoon/11653.md)
+19. 다이나믹 프로그래밍 1
+    - 1로 만들기
+    - [2×n 타일링](algorithm/backjoon/11726.md)
+    - [2×n 타일링 2](algorithm/backjoon/11727.md)
+    - [1, 2, 3 더하기](algorithm/backjoon/9095.md)
+    - 카드 구매하기
+    - 카드 구매하기 2
+    - 1, 2, 3 더하기 5
+    - 쉬운 계단 수
+    - [이친수](algorithm/backjoon/2193.md)
+    - 가장 긴 증가하는 부분 수열
+    - 가장 긴 증가하는 부분 수열 4
+    - 연속합
+    - 제곱수의 합
+    - 합분해
 
 
 
