@@ -2,31 +2,37 @@
 
 ## Basics
 
-1. [CLI 사용하기](startcamp/CLI.md)
-2. [마크다운 사용하기](startcamp/markdown.md)
-2. [git 기초](startcamp/git.md)
+1. [CLI 사용하기](edu/basics/CLI.md)
+2. [마크다운 사용하기](edu/basics/markdown.md)
+2. [git 기초](edu/basics/git.md)
 
 
 
 ## Python
 
-1. [파이썬 기초](python/0117_00_python_basics.md)
-2. [제어문](python/0117_01_control_statement.md)
-3. [함수](python/0119_02_01_function.md)
-4. [모듈](python/0119_02_02_module.md)
-5. [Git](python/0121_git.md)
-6. [데이터 수집](python/0121_json.md)
-6. [데이터 구조](python/0124_03_01_data_structure.md)
-6. [에러/예외 처리](python/0124_03_03_Error_Exception_Handling.md)
-6. [OOP](python/0126_04_OOP.md)
-6. [API](python/0128_API.md)
+1. [파이썬 기초](edu/python/0117_00_python_basics.md)
+2. [제어문](edu/python/0117_01_control_statement.md)
+3. [함수](edu/python/0119_02_01_function.md)
+4. [모듈](edu/python/0119_02_02_module.md)
+5. [Git](edu/python/0121_git.md)
+6. [데이터 수집](edu/python/0121_json.md)
+6. [데이터 구조](edu/python/0124_03_01_data_structure.md)
+6. [에러/예외 처리](edu/python/0124_03_03_Error_Exception_Handling.md)
+6. [OOP](edu/python/0126_04_OOP.md)
+6. [API](edu/python/0128_API.md)
 
 
 
 ## Web
 
-1. [HTML & CSS](web/0203_01_HTML_CSS.md)
-2. [CSS Layout](web/0207_02_CSS_Layout.md)
+1. [HTML & CSS](edu/web/0203_01_HTML_CSS.md)
+2. [CSS Layout](edu/web/0207_02_CSS_Layout.md)
+
+
+
+## APS
+
+1. [배열 1](edu/APS/0209_01_array_1.md)
 
 
 
@@ -187,15 +193,15 @@
     - [2×n 타일링](algorithm/backjoon/11726.md)
     - [2×n 타일링 2](algorithm/backjoon/11727.md)
     - [1, 2, 3 더하기](algorithm/backjoon/9095.md)
-    - 카드 구매하기
-    - 카드 구매하기 2
+    - [카드 구매하기](algorithm/backjoon/11052.md)
+    - [카드 구매하기 2](algorithm/backjoon/16194.md)
     - 1, 2, 3 더하기 5
     - 쉬운 계단 수
     - [이친수](algorithm/backjoon/2193.md)
-    - 가장 긴 증가하는 부분 수열
+    - [가장 긴 증가하는 부분 수열](algorithm/backjoon/11053.md)
     - 가장 긴 증가하는 부분 수열 4
     - 연속합
-    - 제곱수의 합
+    - [제곱수의 합](algorithm/backjoon/1699.md)
     - 합분해
 
 
