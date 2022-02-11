@@ -200,7 +200,7 @@
     - [이친수](algorithm/backjoon/2193.md)
     - [가장 긴 증가하는 부분 수열](algorithm/backjoon/11053.md)
     - 가장 긴 증가하는 부분 수열 4
-    - 연속합
+    - [연속합](algorithm/backjoon/1912.md)
     - [제곱수의 합](algorithm/backjoon/1699.md)
     - 합분해
 
