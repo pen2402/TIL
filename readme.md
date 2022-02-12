@@ -203,6 +203,19 @@
     - [연속합](algorithm/backjoon/1912.md)
     - [제곱수의 합](algorithm/backjoon/1699.md)
     - 합분해
+20. 다이나믹 프로그래밍 1 (연습)
+    - 1, 2, 3 더하기 3
+    - RGB거리
+    - 동물원
+    - [오르막 수](algorithm/backjoon/11057.md)
+    - 스티커
+    - 포도주 시식
+    - 정수 삼각형
+    - [가장 큰 증가 부분 수열](algorithm/backjoon/11055.md)
+    - [가장 긴 감소하는 부분 수열](algorithm/backjoon/11722.md)
+    - 가장 긴 바이토닉 부분 수열
+    - 연속합 2
+    - 타일 채우기
 
 
 

@@ -87,20 +87,20 @@
   - 가까운 서버를 통해 유저에게 빠르게 전달 가능
   - 외부 서버를 활용함으로써 서버 부하가 적어짐
 - spacing
-  - m : margin
-  - p : padding
-  - t: top
-  - b : bottom
-  - s : left
-  - e : right
-  - x : left, right
-  - y : top, bottom
-  - 0 : 0 rem(0px)
-  - 1 : 0.25 rem(4px)
-  - 2 : 0.5 rem(8px)
-  - 3 : 1 rem(16px)
-  - 4 : 1.5 rem(24px)
-  - 5 : 3 rem(48px)
+  - `m` : margin
+  - `p` : padding
+  - `t` : top
+  - `b` : bottom
+  - `s` : left
+  - `e` : right
+  - `x` : left, right
+  - `y` : top, bottom
+  - `0` : 0 rem(0px)
+  - `1` : 0.25 rem(4px)
+  - `2` : 0.5 rem(8px)
+  - `3` : 1 rem(16px)
+  - `4` : 1.5 rem(24px)
+  - `5` : 3 rem(48px)
 - 반응형 웹 디자인(Responsive Web Design)
   - 다양한 화면 크기의 디바이스들이 생겨남에 따라 등장한 개념
   - 특정 기술 이름이 아닌 웹 디자인에 대한 접근 방식, 반응형 레이아웃 작성 사례 등을 기술하는 용어
