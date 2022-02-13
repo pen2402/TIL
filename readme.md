@@ -196,7 +196,7 @@
     - [카드 구매하기](algorithm/backjoon/11052.md)
     - [카드 구매하기 2](algorithm/backjoon/16194.md)
     - 1, 2, 3 더하기 5
-    - 쉬운 계단 수
+    - [쉬운 계단 수](algorithm/backjoon/10844.md)
     - [이친수](algorithm/backjoon/2193.md)
     - [가장 긴 증가하는 부분 수열](algorithm/backjoon/11053.md)
     - 가장 긴 증가하는 부분 수열 4
