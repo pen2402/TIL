@@ -210,7 +210,7 @@
     - [오르막 수](algorithm/backjoon/11057.md)
     - 스티커
     - 포도주 시식
-    - 정수 삼각형
+    - [정수 삼각형](algorithm/backjoon/1932.md)
     - [가장 큰 증가 부분 수열](algorithm/backjoon/11055.md)
     - [가장 긴 감소하는 부분 수열](algorithm/backjoon/11722.md)
     - 가장 긴 바이토닉 부분 수열
