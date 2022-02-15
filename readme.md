@@ -181,7 +181,7 @@
     - [숨바꼭질 6](algorithm/backjoon/17087.md)
     - [2진수 8진수](algorithm/backjoon/1373.md)
     - [8진수 2진수](algorithm/backjoon/1212.md)
-    - -2진수
+    - [-2진수](algorithm/backjoon/2089.md)
     - [골드바흐 파티션](algorithm/backjoon/17103.md)
 18. 수학 1 (참고)
     - [진법 변환 2](algorithm/backjoon/11005.md)
