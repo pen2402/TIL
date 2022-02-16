@@ -199,7 +199,7 @@
     - [쉬운 계단 수](algorithm/backjoon/10844.md)
     - [이친수](algorithm/backjoon/2193.md)
     - [가장 긴 증가하는 부분 수열](algorithm/backjoon/11053.md)
-    - 가장 긴 증가하는 부분 수열 4
+    - [가장 긴 증가하는 부분 수열 4](algorithm/backjoon/14002.md)
     - [연속합](algorithm/backjoon/1912.md)
     - [제곱수의 합](algorithm/backjoon/1699.md)
     - 합분해
@@ -221,5 +221,7 @@
 
 ### Programmers
 
-1. 2022 KAKAO BLIND RECRUITMENT
+1. 2018 KAKAO BLIND RECRUITMENT
+   - [[1차] 다트 게임](algorithm/programmers/17682.md)
+2. 2022 KAKAO BLIND RECRUITMENT
    - [신고 결과 받기](algorithm/programmers/92334.md)
