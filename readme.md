@@ -206,7 +206,7 @@
 20. 다이나믹 프로그래밍 1 (연습)
     - 1, 2, 3 더하기 3
     - RGB거리
-    - 동물원
+    - [동물원](algorithm/backjoon/1309.md)
     - [오르막 수](algorithm/backjoon/11057.md)
     - 스티커
     - 포도주 시식
