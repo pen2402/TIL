@@ -205,11 +205,11 @@
     - 합분해
 20. 다이나믹 프로그래밍 1 (연습)
     - 1, 2, 3 더하기 3
-    - RGB거리
+    - [RGB거리](algorithm/backjoon/1149.md)
     - [동물원](algorithm/backjoon/1309.md)
     - [오르막 수](algorithm/backjoon/11057.md)
-    - 스티커
-    - 포도주 시식
+    - [스티커](algorithm/backjoon/9465.md)
+    - [포도주 시식](algorithm/backjoon/2156.md)
     - [정수 삼각형](algorithm/backjoon/1932.md)
     - [가장 큰 증가 부분 수열](algorithm/backjoon/11055.md)
     - [가장 긴 감소하는 부분 수열](algorithm/backjoon/11722.md)
