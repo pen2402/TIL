@@ -216,6 +216,15 @@
     - 가장 긴 바이토닉 부분 수열
     - 연속합 2
     - 타일 채우기
+21. 브루트 포스
+    - [일곱 난쟁이](algorithm/backjoon/2309.md)
+    - 사탕 게임
+    - [날짜 계산](algorithm/backjoon/1476.md)
+    - 리모컨
+    - 테트로미노
+    - [카잉 달력](algorithm/backjoon/6064.md)
+    - [수 이어 쓰기 1](algorithm/backjoon/1748.md)
+    - [1, 2, 3 더하기](algorithm/backjoon/9095.md)
 
 
 
