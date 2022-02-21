@@ -216,15 +216,30 @@
     - 가장 긴 바이토닉 부분 수열
     - 연속합 2
     - 타일 채우기
-21. 브루트 포스
+21. 다이나믹 프로그래밍 1 (도전)
+    - RGB거리 2
+22. 브루트 포스
     - [일곱 난쟁이](algorithm/backjoon/2309.md)
-    - 사탕 게임
+    - [사탕 게임](algorithm/backjoon/3085.md)
     - [날짜 계산](algorithm/backjoon/1476.md)
     - 리모컨
-    - 테트로미노
+    - [테트로미노](algorithm/backjoon/14500.md)
     - [카잉 달력](algorithm/backjoon/6064.md)
     - [수 이어 쓰기 1](algorithm/backjoon/1748.md)
     - [1, 2, 3 더하기](algorithm/backjoon/9095.md)
+23. 브루트 포스(N과 M)
+    - N과 M (1)
+    - [N과 M (2)](algorithm/backjoon/15650.md)
+    - N과 M (3)
+    - N과 M (4)
+    - N과 M (5)
+    - N과 M (6)
+    - N과 M (7)
+    - N과 M (8)
+    - N과 M (9)
+    - N과 M (10)
+    - N과 M (11)
+    - N과 M (12)
 
 
 
