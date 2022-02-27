@@ -228,18 +228,25 @@
     - [수 이어 쓰기 1](algorithm/backjoon/1748.md)
     - [1, 2, 3 더하기](algorithm/backjoon/9095.md)
 23. 브루트 포스(N과 M)
-    - N과 M (1)
+    - [N과 M (1)](algorithm/backjoon/15649.md)
     - [N과 M (2)](algorithm/backjoon/15650.md)
-    - N과 M (3)
-    - N과 M (4)
-    - N과 M (5)
-    - N과 M (6)
-    - N과 M (7)
-    - N과 M (8)
-    - N과 M (9)
-    - N과 M (10)
-    - N과 M (11)
-    - N과 M (12)
+    - [N과 M (3)](algorithm/backjoon/15651.md)
+    - [N과 M (4)](algorithm/backjoon/15652.md)
+    - [N과 M (5)](algorithm/backjoon/15654.md)
+    - [N과 M (6)](algorithm/backjoon/15655.md)
+    - [N과 M (7)](algorithm/backjoon/15656.md)
+    - [N과 M (8)](algorithm/backjoon/15657.md)
+    - [N과 M (9)](algorithm/backjoon/15663.md)
+    - [N과 M (10)](algorithm/backjoon/15664.md)
+    - [N과 M (11)](algorithm/backjoon/15665.md)
+    - [N과 M (12)](algorithm/backjoon/15666.md)
+24. 브루트 포스 - 순열
+    - 다음 순열
+    - 이전 순열
+    - 모든 순열
+    - 차이를 최대로
+    - 외판원 순회 2
+    - 로또
 
 
 
