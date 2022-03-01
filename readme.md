@@ -241,12 +241,20 @@
     - [N과 M (11)](algorithm/backjoon/15665.md)
     - [N과 M (12)](algorithm/backjoon/15666.md)
 24. 브루트 포스 - 순열
-    - 다음 순열
-    - 이전 순열
-    - 모든 순열
-    - 차이를 최대로
-    - 외판원 순회 2
-    - 로또
+    - [다음 순열](algorithm/backjoon/10972.md)
+    - [이전 순열](algorithm/backjoon/10973.md)
+    - [모든 순열](algorithm/backjoon/10974.md)
+    - [차이를 최대로](algorithm/backjoon/10819.md)
+    - [외판원 순회 2](algorithm/backjoon/10971.md)
+    - [로또](algorithm/backjoon/6603.md)
+25. 브루트 포스 - 재귀
+    - [1, 2, 3 더하기](algorithm/backjoon/9095.md)
+    - [암호 만들기](algorithm/backjoon/1759.md)
+    - [퇴사](algorithm/backjoon/14501.md)
+    - 스타트와 링크
+    - 링크와 스타트
+    - 부등호
+    - 맞춰봐
 
 
 
