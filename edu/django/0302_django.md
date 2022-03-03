@@ -84,3 +84,39 @@
     - 대다수의 동적 웹 사이트는 보통 header, footer, navbar 같은 사이트 공통 디자인을 가짐
     - django 템플릿 시스템은 이러한 요소를 한곳에 저장하기 쉽게 하여 중복 코드를 없애야 함
     - 이는 템플릿 상속의 기초가 되는 철학임
+
+
+
+- form
+
+  - 웹에서 사용자 정보를 입력하는 여러 방식을 제공하고, 사용자로부터 입력 받은 데이터를 서버로 전송하는 역할 담당
+
+  - 핵심 속성(attribute)
+    - action : 입력 데이터가 전송될 URL 지정
+    - method : 입력 데이터 전달 방식 지정
+
+- input
+  - 사용자로부터 데이터를 입력 받기 위해 사용
+  - type 속성에 따라 동작 방식이 달라짐
+  - 핵심 속성(attribute)
+    - name
+    - 중복 가능, 양식을 제출했을 때 name이라는 이름에 설정된 값을 넘겨서 값을 가져올 수 있음
+    - 주요 용도는 GET/POST 방식으로 서버에 전달하는 파라미터로 `?key=value&key=value` 형태로 전달
+- label
+  - 사용자 인터페이스 항목에 대한 설명(caption)을 나타냄
+- for
+  - for 속성의 갑소가 일치하는 id를 가진
+  - 전체 문서에서 고유
+- HTTP
+  - HyperText Transfer Protocol
+  - 웹에서 이루어지는 모든 데이터 교환의 기초
+  - 주어진 리소스가 수행할 원하는 작업을 나타내는 request methods를 정의
+  - HTTP request
+- GET
+  - 서버로부터 정보를 조회하는 데 사용
+  - 데이터를 가져올 때만 사용해야 함
+  - 데이터를 서버로 전송할 때 body가 아닌 Query String Parameters를 통해 전송
+  - 우리는 서버에 요청을 하면 HTML 문서 파일 한 장을 받는데, 이때 사용하는 요청의 방식이 GET
+- Variable Routing
+  - URL 주소를 변수로 사용하는 것
+  - URL의 일부를 변수로 지정하여 view 변수의
