@@ -251,8 +251,8 @@
     - [1, 2, 3 더하기](algorithm/backjoon/9095.md)
     - [암호 만들기](algorithm/backjoon/1759.md)
     - [퇴사](algorithm/backjoon/14501.md)
-    - 스타트와 링크
-    - 링크와 스타트
+    - [스타트와 링크](algorithm/backjoon/14889.md)
+    - [링크와 스타트](algorithm/backjoon/15661.md)
     - 부등호
     - 맞춰봐
 
@@ -264,3 +264,7 @@
    - [[1차] 다트 게임](algorithm/programmers/17682.md)
 2. 2022 KAKAO BLIND RECRUITMENT
    - [신고 결과 받기](algorithm/programmers/92334.md)
+3. 연습문제
+   - [땅따먹기](algorithm/programmers/12913.md)
+4. 월간 코드 챌린지 시즌1
+   - [두 개 뽑아서 더하기](algorithm/programmers/68644.md)
