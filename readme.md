@@ -1,14 +1,16 @@
 # 🌱 TIL(Today I Learned)
 
-## Basics
+## Edu
+
+### Basics
 
 1. [CLI 사용하기](edu/basics/CLI.md)
 2. [마크다운 사용하기](edu/basics/markdown.md)
-2. [git 기초](edu/basics/git.md)
+3. [git 기초](edu/basics/git.md)
 
 
 
-## Python
+### Python
 
 1. [파이썬 기초](edu/python/0117_00_python_basics.md)
 2. [제어문](edu/python/0117_01_control_statement.md)
@@ -23,16 +25,28 @@
 
 
 
-## Web
+### Web
 
 1. [HTML & CSS](edu/web/0203_01_HTML_CSS.md)
 2. [CSS Layout](edu/web/0207_02_CSS_Layout.md)
 
 
 
-## APS
+### APS
 
 1. [배열 1](edu/APS/0209_01_array_1.md)
+2. [배열 2](edu/APS/0214_02_array_2.md)
+3. [문자열](edu/APS/0216_03_string.md)
+4. [알고리즘 문제풀이 방법](edu/APS/0218_problem_solving.md)
+5. [스택 1](edu/APS/0221_stack_1.md)
+6. [스택 2](edu/APS/0223_stack_2.md)
+7. [큐](edu/APS/0225_queue.md)
+
+
+
+### Django
+
+1. [Django](edu/django/0302_django.md)
 
 
 
@@ -253,7 +267,7 @@
     - [퇴사](algorithm/backjoon/14501.md)
     - [스타트와 링크](algorithm/backjoon/14889.md)
     - [링크와 스타트](algorithm/backjoon/15661.md)
-    - 부등호
+    - [부등호](algorithm/backjoon/2529.md)
     - 맞춰봐
 
 
