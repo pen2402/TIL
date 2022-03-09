@@ -216,7 +216,7 @@
     - [가장 긴 증가하는 부분 수열 4](algorithm/backjoon/14002.md)
     - [연속합](algorithm/backjoon/1912.md)
     - [제곱수의 합](algorithm/backjoon/1699.md)
-    - 합분해
+    - [합분해](algorithm/backjoon/2225.md)
 20. 다이나믹 프로그래밍 1 (연습)
     - 1, 2, 3 더하기 3
     - [RGB거리](algorithm/backjoon/1149.md)
@@ -236,7 +236,7 @@
     - [일곱 난쟁이](algorithm/backjoon/2309.md)
     - [사탕 게임](algorithm/backjoon/3085.md)
     - [날짜 계산](algorithm/backjoon/1476.md)
-    - 리모컨
+    - [리모컨](algorithm/backjoon/1107.md)
     - [테트로미노](algorithm/backjoon/14500.md)
     - [카잉 달력](algorithm/backjoon/6064.md)
     - [수 이어 쓰기 1](algorithm/backjoon/1748.md)
@@ -269,6 +269,20 @@
     - [링크와 스타트](algorithm/backjoon/15661.md)
     - [부등호](algorithm/backjoon/2529.md)
     - 맞춰봐
+26. 브루트 포스 - 비트마스크
+    - [집합](algorithm/backjoon/11723.md)
+    - [부분수열의 합](algorithm/backjoon/1182.md)
+    - 종이 조각
+27. 그래프 1
+    - [ABCDE](algorithm/backjoon/13023.md)
+    - [DFS와 BFS](algorithm/backjoon/1260.md)
+    - [연결 요소의 개수](algorithm/backjoon/11724.md)
+    - 이분 그래프
+    - [단지번호붙이기](algorithm/backjoon/2667.md)
+    - [섬의 개수](algorithm/backjoon/4963.md)
+    - [미로 탐색](algorithm/backjoon/2178.md)
+    - [토마토](algorithm/backjoon/7576.md)
+    - [나이트의 이동](algorithm/backjoon/7562.md)
 
 
 
