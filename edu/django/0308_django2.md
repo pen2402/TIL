@@ -1,4 +1,6 @@
-- 
+# Django 02
+
+## Model
 
 - Model
 
@@ -6,9 +8,15 @@
     - 사용자가 저장하는 데이터들의 필수적인 필드들과 동작들을 포함
 
 
-  - 저장된 데이터베이스의 구조(layout)
-  - django는 model을 통해 데이터에 접속하고 관리
-  - 일반적으로 각각의 model은 하나의 데이터베이스 테이블에 매핑됨
+    - 저장된 데이터베이스의 구조(layout)
+
+
+    - django는 model을 통해 데이터에 접속하고 관리
+
+
+    - 일반적으로 각각의 model은 하나의 데이터베이스 테이블에 매핑됨
+
+
 
 - Database
 
@@ -79,20 +87,20 @@
   - `makemigrations`
     - model을 변경한 것에 기반한 새로운 마이그레이션을 만들 때 사용
   - `migrate`
-    - 마이그레이션을 DB에 반영하기 위해 사용
+    - Migration을 DB에 반영하기 위해 사용
     - 설계도를 실제 DB에 반영하는 과정
     - 모델에서의 변경 사항들과 DB의 스키마가 동기화를 이룸
   - `sqlmigrate`
-    - 마이그레이션에 대한 SQL 구문을 보기 위해 사용
-    - 마이그레이션이 SQL문으로 어떻게 해석되어서 동작할지 미리 확인할 수 있음
+    - Migration에 대한 SQL 구문을 보기 위해 사용
+    - Migration이 SQL문으로 어떻게 해석되어서 동작할지 미리 확인할 수 있음
   - `showmigrations`
-    - 프로젝트 전체의 마이그레이션 상태를 확인하기 위해 사용
-    - 마이그레이션 파일들이 migrate 되었는지 아닌지 여부를 확인할 수 있음
+    - 프로젝트 전체의 Migration 상태를 확인하기 위해 사용
+    - Migration 파일들이 migrate 되었는지 아닌지 여부를 확인할 수 있음
 - DataField 옵션
-  - auto_now_add
+  - `auto_now_add`
     - 최초 생성 일자
     - django ORM이 최초 insert(테이블에 데이터 입력) 시에만 현재 날짜와 시간으로 갱신(테이블에 어떤 값을 최초로 넣을 때)
-  - auto_now
+  - `auto_now`
     - 최종 수정 일자
     - Django ORM이 save를 할 때마다 현재 날짜와 시간으로 갱신
 - migration 3단계
@@ -135,7 +143,7 @@
 
   - 일반 Python shell을 통해서는 장고 프로젝트 환경에 접근할 수 없음
   - 그래서 장고 프로젝트 설정이 load된 Python shell을 활용해 DB API 구문 테스트 진행
-  - 기본 django shjell 보다 더 많은 기능을 제공하는 shell_plus를 사용해서 진행
+  - 기본 django shell 보다 더 많은 기능을 제공하는 shell_plus를 사용해서 진행
     - Django-extensions 라이브러리의 기능 중 하나
 
 
@@ -149,19 +157,19 @@
   - `save()`
     - saving objects
     - 객체를 데이터베이스에 저장
-    - 데이터 생성 시 save()를 호출하기 전에는 객체의 ID 값이 무엇인지 알 수 없음
+    - 데이터 생성 시 `save()`를 호출하기 전에는 객체의 ID 값이 무엇인지 알 수 없음
       - ID 값은 django가 아니라 DB에서 계산되기 때문
     - 단순히 모델을 인스턴스화하는 것은 DB에 영향을 미치지 않기 때문에 반드시 save() 필요
-  - str
-    - 표준 파이썬 클래스의 메소드인 str()을 정의하여 각각의 object가 사람이 읽을 수 있는 문자열을 반환하도록 할 수 있음
+  - `__str__`
+    - 표준 파이썬 클래스의 메소드인 `str()`을 정의하여 각각의 object가 문자열을 반환하도록 할 수 있음
   - `full_clean()`
     - 유효성 검사
 - READ
   - QuerySet API method를 사용해 다양한 조회를 하는 것이 중요
   - QuerySet API method는 크게 2가지로 분류
-    - Methods that return new querysets
-    - Methods that do not return querysets
-  - all()
+    - Methods that return new querysets(`all()`, `filter()`)
+    - Methods that do not return querysets(`get()`)
+  - `all()`
     - 현재 QuerySet의 복사본을 반환
   - `get()`
     - 주어진 lookup 매개변수와 일치하는 객체를 반환
@@ -175,7 +183,7 @@
     - 모든 행에 대해 SQL 삭제 쿼리를 수행하고, 삭제된 객체 수와 객체 유형당 삭제 수가 포함된 딕셔너리 반환
   - Field lookups
     - 조회 시 특정 검색 조건을 지정
-    - QuerySet 메소드 filter(), exclude() 및 get()에 대한 키워드 인수로 지정
+    - QuerySet 메소드 `filter()`, `exclude()` 및 `get()`에 대한 키워드 인수로 지정
   - QuerySet API
     - https://docs.Djangoproject.com/en/3.2/ref/models/querysets/#queryset-api-reference
 
@@ -188,3 +196,12 @@
   - Model class를 `admin.py`에 등록하고 관리
   - `django.contrib.auth` 모듈에서 제공
   - record 생성 여부 확인에 매우 유용하며 직접 record를 삽입할 수도 있음
+- admin 등록
+  - `admin.site.register()`
+- list display
+- ModelAdmin options
+
+
+
+## CRUD with views
+

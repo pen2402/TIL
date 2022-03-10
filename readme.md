@@ -74,6 +74,8 @@
    - [윤년](algorithm/backjoon/2753.md)
    - [사분면 고르기](algorithm/backjoon/14681.md)
    - [알람 시계](algorithm/backjoon/2884.md)
+   - [오븐 시계](algorithm/backjoon/2525.md)
+   - [주사위 세개](algorithm/backjoon/2480.md)
 3. for문
    - [구구단](algorithm/backjoon/2739.md)
    - [A+B - 3](algorithm/backjoon/10950.md)
