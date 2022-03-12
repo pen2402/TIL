@@ -211,7 +211,7 @@
     - [1, 2, 3 더하기](algorithm/backjoon/9095.md)
     - [카드 구매하기](algorithm/backjoon/11052.md)
     - [카드 구매하기 2](algorithm/backjoon/16194.md)
-    - 1, 2, 3 더하기 5
+    - [1, 2, 3 더하기 5](algorithm/backjoon/15990.md)
     - [쉬운 계단 수](algorithm/backjoon/10844.md)
     - [이친수](algorithm/backjoon/2193.md)
     - [가장 긴 증가하는 부분 수열](algorithm/backjoon/11053.md)
@@ -220,7 +220,7 @@
     - [제곱수의 합](algorithm/backjoon/1699.md)
     - [합분해](algorithm/backjoon/2225.md)
 20. 다이나믹 프로그래밍 1 (연습)
-    - 1, 2, 3 더하기 3
+    - [1, 2, 3 더하기 3](algorithm/backjoon/15988.md)
     - [RGB거리](algorithm/backjoon/1149.md)
     - [동물원](algorithm/backjoon/1309.md)
     - [오르막 수](algorithm/backjoon/11057.md)
