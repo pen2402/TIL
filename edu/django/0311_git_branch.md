@@ -6,7 +6,11 @@
 - `git branch -D 브랜치명` : 특정 브랜치 강제 삭제
 - `git switch 브랜치명` : 브랜치 이동
 - `git switch -c 브랜치명` : 브랜치를 새로 생성과 동시에 이동
-- `git log --oneline --all --graph`
+- `git log` : 커밋 이력 확인
+  - `--oneline` : 한 줄로 간략하게 확인
+  - `--all` : 전체 브랜치 확인
+  - `--graph` : 그래프로 나타냄
+
 
 
 

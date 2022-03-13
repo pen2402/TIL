@@ -230,7 +230,7 @@
     - [가장 큰 증가 부분 수열](algorithm/backjoon/11055.md)
     - [가장 긴 감소하는 부분 수열](algorithm/backjoon/11722.md)
     - 가장 긴 바이토닉 부분 수열
-    - 연속합 2
+    - [연속합 2](algorithm/backjoon/13398.md)
     - 타일 채우기
 21. 다이나믹 프로그래밍 1 (도전)
     - RGB거리 2
