@@ -4,9 +4,10 @@
 
 ### Basics
 
-1. [CLI 사용하기](edu/basics/CLI.md)
-2. [마크다운 사용하기](edu/basics/markdown.md)
-3. [git 기초](edu/basics/git.md)
+1. [CLI 사용하기](edu/basics/0113_CLI.md)
+2. [마크다운 사용하기](edu/basics/0113_markdown.md)
+3. [git 기초](edu/basics/0113_git.md)
+3. [Git branch](edu/django/0311_git_branch.md)
 
 
 
@@ -46,7 +47,15 @@
 
 ### Django
 
-1. [Django](edu/django/0302_django.md)
+1. [Django 1](edu/django/0302_django_01.md)
+2. [Namespace & Static files](edu/django/0304_namespace_static_files.md)
+3. [Django 2](edu/django/0308_django_02.md)
+
+
+
+### Database
+
+1. [DB 1](edu/db/0314_db_01.md)
 
 
 
@@ -291,6 +300,7 @@
 ### Programmers
 
 1. 2018 KAKAO BLIND RECRUITMENT
+   - [[1차] 캐시](algorithm/programmers/17680.md)
    - [[1차] 다트 게임](algorithm/programmers/17682.md)
 2. 2022 KAKAO BLIND RECRUITMENT
    - [신고 결과 받기](algorithm/programmers/92334.md)
