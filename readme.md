@@ -42,6 +42,9 @@
 5. [스택 1](edu/APS/0221_stack_1.md)
 6. [스택 2](edu/APS/0223_stack_2.md)
 7. [큐](edu/APS/0225_queue.md)
+8. [트리](edu/APS/0316_tree.md)
+9. [컴퓨팅 사고력](edu/APS/0321_computing_thinking.md)
+   - [컴퓨팅 사고력 문제 풀이](edu/APS/0321_computing_thinking_problem_solving.md)
 
 
 
