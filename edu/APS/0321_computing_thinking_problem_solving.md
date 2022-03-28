@@ -7,7 +7,7 @@
 다음 명제들이 항진명제임을 진리표를 이용하여 보이시오.
 $$
 1.\quad \sim{({\sim p} \and q)} \or q\\
-2.\quad ({\sim p} \or q) \or (p  \and {\sim q})\\
+2.\quad ({\sim p} \or q) \or (p  \and {\sim q})
 $$
 
 ##### 풀이
