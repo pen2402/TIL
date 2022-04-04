@@ -45,6 +45,9 @@
 8. [트리](edu/APS/0316_tree.md)
 9. [컴퓨팅 사고력](edu/APS/0321_computing_thinking.md)
    - [컴퓨팅 사고력 문제 풀이](edu/APS/0321_computing_thinking_problem_solving.md)
+10. [알고리즘 기본](edu/APS/0323_start.md)
+11. [완전 검색 & 그리디](edu/APS/0328_brute-force_search_greedy.md)
+12. [그래프 & 최적화](edu/APS/0401_graph.md)
 
 
 
