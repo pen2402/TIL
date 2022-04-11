@@ -300,6 +300,25 @@
     - [미로 탐색](algorithm/backjoon/2178.md)
     - [토마토](algorithm/backjoon/7576.md)
     - [나이트의 이동](algorithm/backjoon/7562.md)
+28. 그래프 1 (연습)
+    - [Two Dots](algorithm/backjoon/16929.md)
+    - 서울 지하철 2호선
+29. 그래프 1 (도전)
+    - [BFS 스페셜 저지](algorithm/backjoon/16940.md)
+    - [DFS 스페셜 저지](algorithm/backjoon/16964.md)
+    - [다리 만들기](algorithm/backjoon/2146.md)
+30. BFS
+    - [숨바꼭질](algorithm/backjoon/1697.md)
+    - [숨바꼭질 4](algorithm/backjoon/13913.md)
+    - [이모티콘](algorithm/backjoon/14226.md)
+    - [숨바꼭질 3](algorithm/backjoon/13549.md)
+    - [알고스팟](algorithm/backjoon/1261.md)
+31. 트리 1
+    - [트리 순회](algorithm/backjoon/1991.md)
+    - 트리의 높이와 너비
+    - [트리의 부모 찾기](algorithm/backjoon/11725.md)
+    - [트리의 지름](algorithm/backjoon/1167.md)
+    - [트리의 지름](algorithm/backjoon/1967.md)
 
 
 
