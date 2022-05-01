@@ -1,7 +1,7 @@
 # JavaScript 기초
 
 - 브라우저
-  - URL로 웹을 탐색하며 서버와 통신하고 HTML 문서나 파일을 출력하는 GUI 기반의 소프트웨어
+  - URL로 웹(WWW)을 탐색하며 서버와 통신하고 HTML 문서나 파일을 출력하는 GUI 기반의 소프트웨어
   - 인터넷의 콘텐츠를 검색 및 열람하도록 함
   - 웹 브라우저라고도 함
 - JavaScript의 필요성
@@ -19,34 +19,36 @@
     - navigator, screen, location, frames, history, XHR
   - JavaScript Core(ECMAScript)
     - Data Structure(Object, Array), Conditional Expression, Iteration
-- DOM
+- DOM(Document Object Model)
   - HTML, XML과 같은 문서를 다루기 위한 프로그래밍 인터페이스
   - 문서를 구조화하고, 구조화된 구성 요소를 하나의 객체로 취급하여 다루는 논리적 트리 모델
   - 문서가 객체로 구조화되어 있으며 key로 접근 가능
-  - 단순한 속성 접근, 메소드 활용 뿐만 아니라 프로그래밍 언어적 특성을 활용한 조작 가능
+  - 단순한 속성 접근, 메소드 활용뿐만 아니라 프로그래밍 언어적 특성을 활용한 조작 가능
   - 주요 객체
     - window
+      - DOM을 표현하는 창(브라우저 탭)
+      - 최상위 객체(작성 시 생략 가능)
     - document
+      - 페이지 콘텐츠의 Entry Point 역할을 하며 `<head>`, `<body>` 등의 수많은 다른 요소들을 포함
     - navigator, location, history, screen
 - DOM - 해석
   - 파싱(Parsing)
     - 구문 분석, 해석
     - 브라우저가 문자열을 해석하여 DOM Tree로 만드는 과정
-- BOM
+- BOM(Browser Object Model)
   - 자바스크립트가 브라우저와 소통하기 위한 모델
   - 브라우저의 창이나 프레임을 추상화해서 프로그래밍적으로 제어할 수 있도록 제공하는 수단
-    - 버튼, URL 입력창, 타이틀 바 등 브라우저 윈도우 및 웹 페이지 일부분을 제어 가능
+    - 버튼, URL 입력창, 타이틀 바 등 브라우저 윈도우 및 웹 페이지 일부분 제어 가능
   - window 객체는 모든 브라우저로부터 지원받으며 브라우저의 창을 지칭
 - JavaScript Core
   - 브라우저(BOM & DOM)를 조작하기 위한 명령어 약속(언어)
-- 브라우저와 그 내부의 문서를 조작하기 위해 ECMAScript(JS)를 학습
 
 
 
-## ECMAscript
+## ECMAScript
 
 - ECMA
-  - ECMA
+  - ECMA(ECMA International)
     - 정보 통신에 대한 표준을 제정하는 비영리 표준화 기구
   - ECMAScript는 ECMA에서 ECMA-262 규격에 따라 정의한 언어
     - ECMA-262 : 범용적인 목적의 프로그래밍 언어에 대한 명세
@@ -71,31 +73,31 @@
   - 코딩 스타일은 코드의 품질에 직결되는 중요한 요소
     - 코드의 가독성, 유지보수 또는 팀원과의 커뮤니케이션 등 개발 과정 전체에 영향을 끼침
   - 다양한 자바스크립트 코딩 스타일 가이드
-    - Airbnb Javascript Style Guide
-    - Google Javascript Style Guide
-    - standardjs
+    - [Airbnb Javascript Style Guide](https://airbnb.io/javascript/)
+    - [Google Javascript Style Guide](https://google.github.io/styleguide/jsguide.html)
+    - [standardjs](https://standardjs.com/)
 
 
 
 ## 변수와 식별자
 
-- 식별자 정의와 특징
-  - 식별자(identifier)는 변수를 구분할 수 있는 변수명을 말함
+- 식별자(identifier)
+  - 변수를 구분할 수 있는 변수명
   - 식별자는 반드시 문자, 달러(`$`) 또는 밑줄(`_`)로 시작
   - 대소문자를 구분하며, 클래스명 외에는 모두 소문자로 시작
   - 예약어 사용 불가능
     - `for`, `if`, `function` 등
 - 식별자 작성 스타일
   - 카멜 케이스(camelCase, lower-camel-case)
-    - 두 번째 단어의 첫 글자부터 대문자로 작성
+    - 두 번째 단어부터 첫 글자를 대문자로 작성
     - 변수, 객체, 함수에 사용
   - 파스칼 케이스(PascalCase, upper-camel-case)
-    - 모든 단어의 첫 번째 글자를 대문자로 작성
+    - 모든 단어의 첫 글자를 대문자로 작성
     - 클래스, 생성자에 사용
   - 대문자 스네이크 케이스(SNAKE_CASE)
-    - 모든 단어를 대문자로 작성
+    - 모든 글자를 대문자로 작성
     - 단어 사이에 언더스코어(`_`) 삽입
-    - 상수에 사용
+    - 상수(constants)에 사용
       - 상수 : 개발자의 의도와 상관없이 변경될 가능성이 없는 값을 의미
 - 변수 선언 키워드
   - `let`
@@ -126,6 +128,9 @@
         - 변수를 선언 이전에 참조할 수 있는 현상
         - 변수 선언 이전의 위치에서 접근 시 `undefined` 반환
     - 함수 스코프, 글로벌 스코프
+  - 함수 스코프(function scope)
+    - 함수의 중괄호 내부
+    - 함수 스코프를 가지는 변수는 함수 바깥에서 접근 불가능
 
 
 
@@ -133,7 +138,7 @@
 
 - 데이터 타입 종류
   - 자바스크립트의 모든 값은 특정한 데이터 값을 가짐
-  - 원시 타입(Primitive type)과 참조 타입(Reference type)으로 분류
+  - 크게 원시 타입(Primitive type)과 참조 타입(Reference type)으로 분류
   - 원시 타입(Primitive type)
     - 객체가 아닌 기본 타입
     - 변수에 해당 타입의 값이 담김
@@ -147,8 +152,8 @@
     - 정수, 실수 구분 없는 하나의 숫자 타입
     - 부동소수점 형식을 따름
     - NaN(Not-A-Number)
-      - 계산 불가능한 경우 반환되는 값
-  - 문자열 타입
+      - 계산 불가능한 경우의 반환 값
+  - 문자열(String) 타입
     - 텍스트 데이터를 나타내는 타입
     - 16비트 유니코드 문자의 집합
     - 작은따옴표 또는 큰따옴표 모두 가능
@@ -162,15 +167,15 @@
     - `typeof` 연산자 결과는 `undefined`
   - `null`
     - 변수의 값이 없음을 의도적으로 표현할 때 사용하는 데이터 타입
-    - `typeof` 연산자 결과는 object
+    - `typeof` 연산자 결과는 `object`
     - `null` 타입과 `typeof` 연산자
       - `typeof` 연산자 : 자료형 평가를 위한 연산자
-      - `null` 타입은 ECMA 명세의 원시 타입의 정의에 따라 원시 타입에 속하지만 typeof 연산자의 결과는 객체로 표현됨
+      - `null` 타입은 ECMA 명세에 따라 원시 타입에 속하지만 `typeof` 연산자의 결과는 객체로 표현됨
   - Boolean 타입
     - 논리적 참 또는 거짓을 나타내는 타입
     - `true` 또는 `false`로 표현
     - 조건문 또는 반복문에서 유용하게 사용
-      - 조건문 또는 반복문에서 boolean이 아닌 데이터 타입은 자동 형변환 규칙에 따라 `true` 또는 `false`로 변환됨
+      - boolean이 아닌 데이터 타입은 자동 형변환 규칙에 따라 `true` 또는 `false`로 변환됨
 - 참조 타입
   - 함수(Functions)
   - 배열(Arrays)
@@ -194,7 +199,7 @@
       - 알파벳 순서상 후순위가 더 큼
       - 소문자가 대문자보다 더 큼
 - 동등 비교 연산자(`==`)
-  - 두 연산자가 같은 값으로 평가되는지 비교 후 boolean 값을 반환
+  - 두 피연산자가 같은 값으로 평가되는지 비교 후 boolean 값을 반환
   - 비교할 때 암묵적 타입 변환을 통해 타입을 일치시킨 후 같은 값인지 비교
   - 두 피연산자가 모두 객체일 경우 메모리의 같은 객체를 바라보는지 판별
   - 예상치 못한 결과가 발생할 수 있으므로 특별한 경우를 제외하고 사용하지 않음
@@ -214,7 +219,7 @@
   - 단축 평가 지원
     - `false && true` => `false`
     - `true || false` => `true`
-- 삼항 연산자
+- 삼항 연산자(Ternary Operator)
   - 세 개의 피연산자를 사용하여 조건에 따라 값을 반환하는 연산자
   - 가장 왼쪽의 조건식이 참이면 콜론(`:`) 앞의 값을 사용, 그렇지 않으면 콜론(`:`) 뒤의 값을 사용
   - 삼항 연산자의 결과 값이기 때문에 변수에 할당 가능
@@ -225,10 +230,12 @@
 ## 조건문
 
 - `if`
+  - `if`, `else if`, `else`
   - 조건 표현식의 결과 값을 Boolean 타입으로 변환 후 참/거짓 판단
-  - 조건은 소괄호 안에 작성
+  - 조건은 소괄호(condition) 안에 작성
   - 실행할 코드는 중괄호 안에 작성
   - 블록 스코프 생성
+
 - `switch`
   - 조건 표현식의 결과 값이 어느 값(case)에 해당하는지 판별
   - 주로 특정 변수 값에 따라 조건을 분기할 때 활용
@@ -248,6 +255,7 @@
   - 블록 스코프 생성
 - `for`
   - 세미콜론(`;`)으로 구분되는 세 부분으로 구성
+    - `for (<initialization>; <condition>; <expression>) {<실행 코드>}`
   - initialization
     - 최초 반복문 진입 시 1회만 실행되는 부분
   - condition
@@ -261,7 +269,7 @@
   - 실행할 코드는 중괄호 안에 작성
   - 블록 스코프 생성
 - `for` ... `of`
-  - 반복 가능한 객체(object)를 순회하며 값을 꺼낼 때 사용
+  - 반복 가능한(iterable) 객체(object)를 순회하며 값을 꺼낼 때 사용
     - 반복 가능한 객체의 종류 : Array, Map, Set, String
   - 실행할 코드는 중괄호 안에 작성
   - 블록 스코프 생성
