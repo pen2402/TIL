@@ -78,7 +78,7 @@
 
   - 텍스트 파일인 HTML 문서를 브라우저에서 렌더링하기 위한 구조
   - HTML 문서에 대한 모델을 구성
-  - HTML 문서 내의 각 요소에 접근 / 수정이 필요한 프로퍼티와 메소드 제공
+  - HTML 문서 내의 각 요소에 접근 / 수정이 필요한 프로퍼티와 메서드 제공
   - 들여쓰기가 되어 있지 않아도 태그로 동작 가능
   - 가독성(유지보수)을 위해 들여쓰기(2 space) 권장
 
@@ -168,7 +168,7 @@
   - 정보(데이터)를 서버에 제출하기 위한 영역
   - 기본 속성
     - `action` : form을 처리할 서버의 URL
-    - `method` : form을 제출할 때 사용할 HTTP 메소드(`GET` 혹은 `POST`)
+    - `method` : form을 제출할 때 사용할 HTTP 메서드(`GET` 혹은 `POST`)
     - `enctype` : `method`가 `POST`인 경우 데이터의 유형(이미지, 비디오 파일 등)
       - `application/x-www-form-urlencoded` : 기본값
       - `multipart/form-data` : 파일 전송 시(input type이 file인 경우)

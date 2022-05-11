@@ -146,14 +146,14 @@
       - 성공 여부를 promise에서 판단할 수 없기 때문
     - 무조건 실행되어야 하는 절에서 활용
       - `.then()`과 `.catch()` 블록에서의 코드 중복 방지
-  - `.then()`과 `.catch()` 메소드는 모두 promise를 반환하기 때문에 chaining 가능
+  - `.then()`과 `.catch()` 메서드는 모두 promise를 반환하기 때문에 chaining 가능
     - 반환 값이 반드시 있어야 함
     - 없으면 callback 함수가 이전의 promise 결과를 받을 수 없음
 
 - Promise가 보장하는 것
   - callback 함수는 JavaScript의 EventLoop가 현재 실행 중인 Call Stack 완료 이전에 절대 호출되지 않음
     - Promise callback 함수는 Event Queue에 배치되는 엄격한 순서로 호출
-    - 비동기 작업이 성공하거나 실패한 뒤에 `.then()` 메소드를 이용하여 추가한 경우에도 동작
+    - 비동기 작업이 성공하거나 실패한 뒤에 `.then()` 메서드를 이용하여 추가한 경우에도 동작
   - .then()을 여러 번 사용하여 여러 개의 callback 함수를 추가할 수 있음(Chaining)
     - 각각의 callback은 주어진 순서대로 하나하나 실행하게 됨
     - Promise의 가장 큰 장점

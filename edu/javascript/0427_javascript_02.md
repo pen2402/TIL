@@ -79,7 +79,7 @@
   - HTMLElement
     - 모든 종류의 HTML 요소
     - 부모 element의 속성 상속
-- DOM 선택 - 선택 관련 메소드
+- DOM 선택 - 선택 관련 메서드
   - `<document>.querySelector(<selector>)`
     - 제공하는 선택자와 일치하는 element 하나 선택
     - 제공한 CSS selector를 만족하는 첫 번째 element 객체를 반환(없으면 `null`)
@@ -99,7 +99,7 @@
 
   - NodeList
     - index로만 각 항목에 접근 가능
-    - HTMLCollection과 달리 배열에서 사용하는 forEach 메소드 및 다양한 메소드 사용 가능
+    - HTMLCollection과 달리 배열에서 사용하는 forEach 메서드 및 다양한 메서드 사용 가능
 
   - 둘 모두 Live Collection으로 DOM의 변경사항을 실시간으로 반영
     - `.querySelectorAll()`으로 반환되는 NodeList는 실시간으로 반영되지 않는 Static Collection
@@ -112,7 +112,7 @@
   - Static Collection(non-live)
     - DOM이 변경되어도 collection 내용에는 영향을 주지 않음
 
-- DOM 변경 - 변경 메소드(Creation)
+- DOM 변경 - 변경 메서드(Creation)
   - `<document>.createElement()`
     - 작성한 태그명의 HTML 요소를 생성하여 반환
 
@@ -141,7 +141,7 @@
           - 공격자가 엑세스 제어를 우회하고 사용자를 가장할 수 있도록 함
           - 민감한 정보를 탈취할 수 있음
 
-- DOM 삭제 - 삭제 관련 메소드
+- DOM 삭제 - 삭제 관련 메서드
   - `<ChildNode>.remove()`
     - Node가 속한 트리에서 해당 Node 제거
 
@@ -149,7 +149,7 @@
     - DOM에서 자식 Node를 제거하고 제거된 Node를 반환
     - Node는 인자로 들어가는 자식 Node의 부모 Node
 
-- DOM 속성 - 속성 관련 메소드
+- DOM 속성 - 속성 관련 메서드
   - `<Element>.setAtrribute(<name>, <value>)`
     - 지정된 요소의 값 설정
     - 속성이 이미 존재하면 값을 갱신, 존재하지 않으면 지정된 이름과 값으로 새 속성 추가
@@ -167,7 +167,7 @@
   - 네트워크 활동이나 사용자와의 상호작용 같은 사건의 발생을 알리기 위한 객체
   - 이벤트 발생
     - 마우스를 클릭하거나 키보드를 누르는 등 사용자 행동으로 발생할 수도 있음
-    - 특정 메소드를 호출하여 프로그래밍적으로도 만들어낼 수 있음
+    - 특정 메서드를 호출하여 프로그래밍적으로도 만들어낼 수 있음
 - Event 기반 인터페이스
   - AnimationEvent, ClipboardEvent, DragEvent 등
   - UIEvent
