@@ -30,6 +30,7 @@
 
 1. [HTML & CSS](edu/web/0203_01_HTML_CSS.md)
 2. [CSS Layout](edu/web/0207_02_CSS_Layout.md)
+2. [반응형 웹](edu/web/0211_resposive_web.md)
 
 
 
@@ -56,12 +57,38 @@
 1. [Django 1](edu/django/0302_django_01.md)
 2. [Namespace & Static files](edu/django/0304_namespace_static_files.md)
 3. [Django 2](edu/django/0308_django_02.md)
+4. [Django 3](edu/django/0406_django_03.md)
+5. [Django 4](edu/django/0408_django_04.md)
+6. [Django 5](edu/django/0411_django_05.md)
+7. [Django 6](edu/django/0420_django_06.md)
+8. [Django 7](edu/django/0422_django_07.md)
 
 
 
 ### Database
 
 1. [DB 1](edu/db/0314_db_01.md)
+1. [DB 2](edu/db/0413_db_02.md)
+1. [DB 3](edu/db/0418_db_03.md)
+
+
+
+### JavaScript
+
+1. [JavaScript 1-1](edu/javascript/0425_javascript_01_01.md)
+2. [JavaScript 1-2](edu/javascript/0426_javascript_01_02.md)
+3. [JavaScript 2](edu/javascript/0427_javascript_02.md)
+4. [JavaScript 3](edu/javascript/0502_Javascript_03.md)
+
+
+
+### Vue.js
+
+1. [Vue 1](edu/vue/0504_vue_01.md)
+2. [Vue 2](edu/vue/0509_vue_02.md)
+3. [Vue 3](edu/vue/0511_vue_03.md)
+4. [Vue 4](edu/vue/0516_vue_04.md)
+5. [Vue 5](edu/vue/0518_vue_05.md)
 
 
 
