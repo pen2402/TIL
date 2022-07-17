@@ -176,6 +176,61 @@
   - 외부 클래스에서 메서드 호출 시 우선 해당 클래스로부터 객체를 생성해야 함
     - 메서드는 객체에 소속된 멤버로 객체가 전제되어야 함
 
+### 메소드 오버로딩
+
+- 오버로딩(Overloading)
+  
+  - 클래스 내에 같은 이름의 메서드를 여러 개 선언하는 것
+  
+  - 매개 변수 타입, 개수, 순서 중 하나가 달라야 함
+    
+    - 모두 같을 경우 매개변수 이름이 다르더라도 메서드 오버로딩이 아님
+    
+    - 리턴 타입만 다른 경우도 오버로딩이 아님
+    
+    - 오버로딩이 아닌 경우 컴파일 에러 발생
+  
+  - 매개값을 다양하게 받아 처리할 수 있도록 하기 위함
+    
+    ```java
+    int plus(int x, int y) {
+        int result = x + y;
+        return result;
+    }
+    
+    int plus(double x, double y) {
+        int result = x + y;
+        return result;
+    }
+    ```
+    
+    - `double` 타입의 값을 처리하기 위해 `plus()` 메서드 오버로딩
+  
+  - 오버로딩된 메서드를 호출할 경우 JVM은 인자 값의 타입을 보고 메서드를 선택
+    
+    - 매개변수 타입과 일치하지 않을 경우 자동 타입 변환이 가능한지 검사
+  
+  ```java
+  String concat(String delim, String ... args) {
+      String result = "";
+      for (String str : args) {
+          result += str + delim;
+      }
+      return result
+  }
+  
+  String concat(String ... args) {
+      return concat("", args);
+  }
+  ```
+  
+  - 가변 매개변수를 JVM에서 구분하지 못해 컴파일 에러가 발생할 수 있으므로 주의
+
+- 장점
+  
+  - 하나의 이름으로 여러 기능을 구현할 수 있음
+  - 메서드 이름 절약하고 가독성을 높임
+
 ## 인스턴스 멤버와 정적 멤버
 
 ### 인스턴스 멤버와 this
