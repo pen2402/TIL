@@ -176,13 +176,23 @@
   - 외부 클래스에서 메서드 호출 시 우선 해당 클래스로부터 객체를 생성해야 함
     - 메서드는 객체에 소속된 멤버로 객체가 전제되어야 함
 
-### 메소드 오버로딩
+### 메서드 오버로딩
 
 - 오버로딩(Overloading)
   
   - 클래스 내에 같은 이름의 메서드를 여러 개 선언하는 것
   
   - 매개 변수 타입, 개수, 순서 중 하나가 달라야 함
+    
+    ```java
+    String func(int a, char b) { ... }
+    String func(char a, int b) { ... }    // 순서가 다르므로 에러 발생하지 않음
+    ```
+    
+    ```java
+    int plus(int x, int y) { ... }
+    int plus(int y, int x) { ... }    // 매개변수 이름만 다르므로 에러 발생
+    ```
     
     - 모두 같을 경우 매개변수 이름이 다르더라도 메서드 오버로딩이 아님
     
@@ -198,8 +208,8 @@
         return result;
     }
     
-    int plus(double x, double y) {
-        int result = x + y;
+    double plus(double x, double y) {
+        double result = x + y;
         return result;
     }
     ```
